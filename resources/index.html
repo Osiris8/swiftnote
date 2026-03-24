@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SwiftNote - NeutralinoJS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>SwiftNote</h1>
+      <p>Save your thoughts directly to your PC.</p>
+
+      <textarea id="noteInput" placeholder="Type your note here..."></textarea>
+
+      <div class="actions">
+        <button onclick="saveNote()" class="btn-save">Save Note</button>
+        <button onclick="openFolder()" class="btn-folder">Open Folder</button>
+      </div>
+
+      <div id="status"></div>
+    </div>
+
+    <script src="js/neutralino.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
