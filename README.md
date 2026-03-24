@@ -57,11 +57,12 @@ This application explores several core Neutralinojs modules:
 
 ```text
 ├── resources/
-│   ├── index.html    # Main UI
-│   ├── style.css     # Custom styling
+│   ├── index.html       # Main UI (HTML5)
+│   ├── style.css        # Custom styling (CSS3)
 │   └── js/
-│       ├── main.js   # Application logic & Native API calls
-│       └── neutralino.js
-├── neutralino.config.json # App configuration & Permissions
-└── README.md
+│       ├── main.js      # Application logic & Native API calls
+│       └── neutralino.js # Neutralinojs client library
+├── neutralino.config.json # App configuration & Native permissions
+├── my_notes.txt         # Your saved notes (Generated after first save)
+└── README.md            # Project documentation
 ```
