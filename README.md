@@ -3,7 +3,7 @@
 **SwiftNote** is a lightweight, cross-platform desktop application built with **Neutralinojs**. It allows users to quickly jot down thoughts and save them directly to their local file system without the overhead of heavy frameworks.
 
 <p align="center">
-  <img src="assets/demo.gif" alt="SwiftNote Demo" width="600">
+  <img src="assets/demo.png" alt="SwiftNote Demo" width="600">
 </p>
 
 This project was developed as a technical sample for **GSoC 2026** to demonstrate the integration between web technologies (HTML/CSS/JS) and native system capabilities.
